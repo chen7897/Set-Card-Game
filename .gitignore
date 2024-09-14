@@ -1,0 +1,18 @@
+
+
+```bash
+# Ignore Maven build directory
+target/
+logs/
+
+# Ignore Eclipse/IntelliJ IDEA project files
+*.iml
+.idea/
+.classpath
+.project
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore Git metadata
+.git/
