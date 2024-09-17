@@ -36,8 +36,21 @@ The game ends when:
 
 ### Building the project
 To build the project, run the following command from the root directory:
+To compile: 
 ```bash
-mvn clean install
+ mvn compile 
+```
+To run:
+```bash
+mvn exec:java
+```
+To clean:
+```bash
+mvn clean
+```
+You can also combine:
+```bash
+mvn clean compile exec:java
 ```
 
 ### Running the Game
